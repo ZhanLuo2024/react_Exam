@@ -9,6 +9,7 @@ export const getMovies = () => {
     .catch((error) => {
       throw error
     });
+    
 };
 
   export const getUpcomingMovies = () => {
